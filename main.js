@@ -90,7 +90,7 @@ if (calcolo < 49) {
 */
 
 /* Calcolatore BMI */
-
+/*
 let peso = parseInt(prompt("Indica il tuo peso in kg"));
 let altezza = parseInt(prompt("Indica la tua altezza in centimetri")) / 100;
 let bmi = peso / (altezza * altezza);
@@ -101,4 +101,26 @@ if (bmi < 18.5) {
   alert("Hai un peso normale. Il tuo BMI è: " + bmi);
 } else {
   alert("Sei sovrappeso. Il tuo BMI è: " + bmi);
+}
+*/
+/* Anno bisestile */
+/*
+let anno = prompt("Inserisci un anno");
+let annoBis = parseInt(anno);
+
+if ((annoBis 
+*/
+/* L'assegnatore dei voti */
+let punteggio = parseInt(prompt("Inserisci il tuo punteggio del test"));
+
+if (punteggio >= 90) {
+  alert("Il tuo voto è A");
+} else if (punteggio >= 80 && punteggio < 90) {
+  alert("Il tuo voto è B");
+} else if (punteggio >= 70 && punteggio < 80) {
+  alert("Il tuo voto è C");
+} else if (punteggio >= 60 && punteggio < 70) {
+  alert("Il tuo voto è D");
+} else {
+  alert("Il tuo voto è una F");
 }
