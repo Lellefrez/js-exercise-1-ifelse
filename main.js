@@ -77,7 +77,7 @@ if (eta < 13) {
 */
 
 /* Calcolatore di sconti */
-
+/*
 let totale = parseFloat(prompt("Qual è il prezzo dell'articolo?"));
 let percentuale = parseFloat(prompt("qual'è la percentuale di sconto?"));
 
@@ -86,4 +86,19 @@ if (calcolo < 49) {
   alert(calcolo + " buona serata");
 } else {
   alert(calcolo + " è un ottimo affare");
+}
+*/
+
+/* Calcolatore BMI */
+
+let peso = parseInt(prompt("Indica il tuo peso in kg"));
+let altezza = parseInt(prompt("Indica la tua altezza in centimetri")) / 100;
+let bmi = peso / (altezza * altezza);
+
+if (bmi < 18.5) {
+  alert("Sei sottopeso. Il tuo BMI è: " + bmi);
+} else if (bmi >= 18.5 && bmi <= 24.9) {
+  alert("Hai un peso normale. Il tuo BMI è: " + bmi);
+} else {
+  alert("Sei sovrappeso. Il tuo BMI è: " + bmi);
 }
