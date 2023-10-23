@@ -115,11 +115,11 @@ let punteggio = parseInt(prompt("Inserisci il tuo punteggio del test"));
 
 if (punteggio >= 90) {
   alert("Il tuo voto è A");
-} else if (punteggio >= 80 && punteggio < 90) {
+} else if (punteggio >= 80) {
   alert("Il tuo voto è B");
-} else if (punteggio >= 70 && punteggio < 80) {
+} else if (punteggio >= 70) {
   alert("Il tuo voto è C");
-} else if (punteggio >= 60 && punteggio < 70) {
+} else if (punteggio >= 60) {
   alert("Il tuo voto è D");
 } else {
   alert("Il tuo voto è una F");
