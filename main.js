@@ -52,7 +52,7 @@ let  media = (studentN1 + studentN2 + studentN3 ) / 3
 alert(media) */
 
 /* Calcolatore di voti */
-
+/*
 let totale = parseFloat(prompt("Qual è il totale del conto?"));
 let percentuale = parseFloat(
   prompt("Quale percentuale di mancia vuoi lasciare?")
@@ -60,3 +60,17 @@ let percentuale = parseFloat(
 
 let calcolo = (totale * percentuale) / 100;
 alert("La mancia da lasciare è: " + calcolo);
+*/
+
+/*----------------------------------*/
+
+/* La serata cinema */
+
+let eta = prompt("Qaul'è la tua età?");
+if (eta < 13) {
+  alert("Puoi vedere solo film con classificazione PG");
+} else if (eta >= 13 && eta < 17) {
+  alert("classificazione PG e PG-13");
+} else {
+  alert("puoi vedere tutti i film");
+}
