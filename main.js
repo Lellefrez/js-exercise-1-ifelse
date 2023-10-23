@@ -30,7 +30,7 @@ alert(calcolo3 + frase);
 */
 
 /* Calcolatore di voti */
-
+/*
 let studente1 = parseFloat(prompt("Indica la valutazione del tuo test"));
 let studente2 = parseFloat(prompt("Indica la valutazione del tuo test"));
 let studente3 = parseFloat(prompt("Indica la valutazione del tuo test"));
@@ -39,3 +39,24 @@ let calcolo1 = studente1 + studente2 + studente3;
 let calcolo2 = calcolo1 / divisore;
 let frase = "La media delle vostre valutazioni è ";
 alert(frase + calcolo2);
+*/
+
+/*
+let student1 = prompt( "indica la valutazione del tuo test") 
+let studentN1 = parseInt(student1)
+let student2 = prompt("indica la valutazione del tuo test")
+let studentN2 = parseInt(student2)
+let student3 = prompt ("indica la valutazione del tuo test")
+let studentN3 = parseInt(student3)
+let  media = (studentN1 + studentN2 + studentN3 ) / 3
+alert(media) */
+
+/* Calcolatore di voti */
+
+let totale = parseFloat(prompt("Qual è il totale del conto?"));
+let percentuale = parseFloat(
+  prompt("Quale percentuale di mancia vuoi lasciare?")
+);
+
+let calcolo = (totale * percentuale) / 100;
+alert("La mancia da lasciare è: " + calcolo);
