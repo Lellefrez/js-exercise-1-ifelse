@@ -65,7 +65,7 @@ alert("La mancia da lasciare è: " + calcolo);
 /*----------------------------------*/
 
 /* La serata cinema */
-
+/*
 let eta = prompt("Qaul'è la tua età?");
 if (eta < 13) {
   alert("Puoi vedere solo film con classificazione PG");
@@ -73,4 +73,17 @@ if (eta < 13) {
   alert("classificazione PG e PG-13");
 } else {
   alert("puoi vedere tutti i film");
+}
+*/
+
+/* Calcolatore di sconti */
+
+let totale = parseFloat(prompt("Qual è il prezzo dell'articolo?"));
+let percentuale = parseFloat(prompt("qual'è la percentuale di sconto?"));
+
+let calcolo = (totale * percentuale) / 100;
+if (calcolo < 49) {
+  alert(calcolo + " buona serata");
+} else {
+  alert(calcolo + " è un ottimo affare");
 }
